@@ -35,7 +35,5 @@ btn.addEventListener('click',()=>{
             backgroundEffect.style.opacity = `100%`;
         }
     })
-
-
-    
+  
 })
