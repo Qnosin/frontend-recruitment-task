@@ -1,0 +1,35 @@
+@use './variables' as *;
+
+body{
+    background-color: $background;
+}
+.wrapper{
+    max-width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    img{
+        max-width: 100%;
+        @media screen and (min-width: 890px) {
+            width:505px ;
+            height: 330px;
+            margin-right: 95px;
+            margin-top: 96px;
+        }
+    }
+    @media screen and (min-width: 890px) {
+        display: flex;
+        flex-direction: row;
+        max-width: 1440px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+}

@@ -1,0 +1,1 @@
+const btn=document.querySelector("button"),wrapper=document.querySelector(".wrapper");console.log(btn);let clickCounter=0;btn.addEventListener("click",()=>{console.log("hello");const e=document.createElement("section"),t=document.createElement("h1");t.textContent="Alert!",e.classList.add("popup"),e.appendChild(t),wrapper.appendChild(e)});
